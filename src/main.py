@@ -22,9 +22,13 @@ def main():
     students = reader.read(path)
     print("Students: ", students)
 
-    rating = CalcRating(students).calc()
+    calc = CalcRating(students)
+
+    rating = calc.calc()
     print("Rating: ", rating)
 
+    q1 = calc.q1()
+    print("Q1: ", q1)
 
 if __name__ == "__main__":
     main()
