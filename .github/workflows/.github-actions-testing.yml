@@ -3,7 +3,7 @@ name: Testing the Python code
 on:
   push:
     branches:
-      - master
+      - xml_mod
 jobs:
   build:
 
