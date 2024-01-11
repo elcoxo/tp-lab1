@@ -30,5 +30,6 @@ def main():
     q1 = calc.q1()
     print("Q1: ", q1)
 
+
 if __name__ == "__main__":
     main()
